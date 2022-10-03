@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura-Geek Agregar Producto</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/editar_productos.css">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./assets/images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon-16x16.png">
+    <link rel="manifest" href="./assets/images/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <a href="index.html"><img src="./assets/images/Logo.png" alt="Logo"></a>
+            </div>
+            <div class="header__login">
+                <a class="editarMenu__btn" href="acciones_productos.html">Menu Administrador</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="editar__section">
+            <div class="editar__container">
+                <h1 class="editar__h1">Editar producto</h1>
+                <form class="editar__form" action="acciones_productos.html">
+                    <input class="editar__form__input input_imagen" type="text" placeholder="Nueva URL Web" required>
+                    <input class="editar__form__input input_categoria" type="text" placeholder="Nueva Categoría" required>
+                    <input class="editar__form__input input_nombre" type="text" placeholder="Nuevo nombre" maxlength="20" required>
+                    <input class="editar__form__input input_precio" type="number" placeholder="Nuevo precio" required>
+                    <input class="editar__form__input input__descripcion" type="text" placeholder="Nueva descripción" maxlength="150" required>
+                    <button class="editar__form__btn" type="submit">Editar producto</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__contenido">
+            <img class="footer__img" src="./assets/images/Logo.png" alt="Logo">
+            <nav class="footer_nav">
+                <ul class="footer__ul">
+                    <li class="footer__li"><a class="footer_a" href="#">Quienes somos</a></li>
+                    <li class="footer__li"><a class="footer_a" href="#">Política de privacidad</a></li>
+                    <li class="footer__li"><a class="footer_a" href="#">Programa de fidelidad</a></li>
+                    <li class="footer__li"><a class="footer_a" href="#">Nuestras tiendas</a></li>
+                    <li class="footer__li"><a class="footer_a" href="#">Quiero ser franquiciado</a></li>
+                    <li class="footer__li"><a class="footer_a" href="#">Anúncie aquí</a></li>
+                </ul>
+            </nav>
+            <form class="footer__form">
+                <h2 class="form__h2">Hable con nosotros</h2>
+                <input class="footer__inputNombre" type="text" placeholder="Nombre" required>
+                <input class="footer__inputMsj" type="text" placeholder="Escribe tu mensaje" required>
+                <button class="footer__btn" type="submit">Enviar mensaje</button>
+            </form>
+        </div>
+
+        <div class="footer__info">
+            <p class="footer__p">&copy Angel Alberto Alderete.</p>
+            <div class="footer__div__infoImg">
+                <a class="footer__p" href="https://www.linkedin.com/in/angel-alberto-alderete-46036b79/" target="_blank"><img class="footer__infoImg" src="./assets/images/linkedin.png" alt="Linkedin"></a>
+                <a class="footer__p" href="https://github.com/aalderete06" target="_blank"><img class="footer__infoImg" src="./assets/images/github.png" alt="GitHub"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="js/editar_productos.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+.editarProducto__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.4rem;
+    flex-wrap: wrap;
+}
+
+.editarProducto__btn{
+    margin-top: 0.5rem;
+    padding: 1rem;
+    background: #2A7AE4;
+    color: #F5F5F5;
+    border: none;
+    font-style: normal;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.editarProducto__acciones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.editarProducto__accion{
+    margin: 0 0.5rem 0 0.5rem;
+}
+
+@media screen and (max-width: 600px){
+    .editarProducto__container{
+        gap: 1.2rem;
+    }
+    
+    .editarProducto__acciones{
+        margin: 0.5rem;
+    }
+    
+    .editarProducto__accion{
+        margin: 0 0.5rem 0 0.5rem;
+    }
+}

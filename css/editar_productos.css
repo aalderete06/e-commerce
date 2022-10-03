@@ -1,0 +1,68 @@
+.editarMenu__btn{
+    text-decoration: none;
+    color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    padding: .6rem 3rem;
+}
+
+.editar__section{
+    margin: 1rem;
+}
+
+.editar__container{
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.editar__h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.editar__form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.editar__form__input{
+    border: none;
+    margin-top: 1.5rem;
+    padding: 1rem 5rem;
+    background-color: rgb(175, 238, 238);
+    text-align: center;
+}
+
+.editar__form__input::placeholder{
+    color: black;
+    font-size: 1rem;
+}
+
+.input__descripcion{
+    padding: 2rem 5rem;
+}
+
+.editar__form__btn{
+    text-decoration: none;
+    margin-top: 1.5rem;
+    padding: 1rem 3rem;
+    background: #2A7AE4;
+    border: none;
+    font-style: normal;
+    color: #F5F5F5;
+}
+
+@media screen and (max-width: 600px){
+    .editar__section{
+        margin: 0;
+    }
+    
+    .editar__container{
+        padding: 1rem;
+    }
+}

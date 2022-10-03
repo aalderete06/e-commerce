@@ -1,0 +1,18 @@
+.todosProducto__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.4rem;
+    flex-wrap: wrap;
+}
+
+.producto__img{
+    width: 176px;
+    height: 174px;
+}
+
+@media screen and (max-width: 600px){
+    .editarProducto__container{
+        gap: 1.2rem;
+    }
+}
